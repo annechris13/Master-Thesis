@@ -1,0 +1,7 @@
+
+\thispagestyle{scrheadings}
+\section*{\centerline{Abstract}} %center the heading
+
+%\itshape
+An under-explored problem in constrained convex optimization is efficiently solving many convex programs that share the same objective and constraint structure but differ in coefficients in each instance. Such problems appear, for example, in computational game theory and market design. Standard commercial solvers such as Gurobi and CPLEX for convex optimization excel at efficiently computing solutions for a single instance but are not able to leverage synergies to efficiently solve many problems of the same kind. The goal of this thesis is exploring possible solutions to the problem of batched constrained optimization, where individual program instances are usually fairly small but applying standard solvers is prohibitive because of lack of parallelism and unnecessary duplicated instantiation overhead. A major part of this thesis focuses on interior point methods for solving constrained optimization problems. The Primal-Dual Interior-Point Method is exploited in building fast converging algorithms with additional speed-up obtained by using computational power of a GPU.
+
